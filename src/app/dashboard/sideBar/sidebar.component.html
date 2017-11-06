@@ -1,15 +1,6 @@
-<h5>Side bar dashboard</h5>
-<ul>
-    <li>
-        <a [routerLink]="['perfil']">Ver perfil</a>
-    </li>
-    <li>
-        <a [routerLink]="['aprovechamiento']">Aprovechamiento</a>
-    </li>
-    <li>
-        <a [routerLink]="['companeros']">Compañeros</a>
-    </li>
-    <li>
-        <a [routerLink]="['profesores']">Profesores</a>
-    </li>
-</ul>
+<div class="btn-group-vertical" role="group" aria-label="Basic example" style="width: 100%;margin: 4%;">
+<button [routerLink]="['perfil']" type="button" class="btn btn-secondary  btn-block">Perfil</button>
+<button [routerLink]="['aprovechamiento']" type="button" class="btn btn-secondary  btn-block">Aprovechamiento</button>
+<button [routerLink]="['companeros']" type="button" class="btn btn-secondary  btn-block">Compañeros</button>
+<button [routerLink]="['profesores']" type="button" class="btn btn-secondary  btn-block">Profesores</button>
+</div>

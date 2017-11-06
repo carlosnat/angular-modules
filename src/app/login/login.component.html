@@ -1,9 +1,18 @@
-<div>
-    <form action="" (submit)="ir_a_dashboard()">
-        <label for="">Username</label>
-        <input type="text" placeholder="username">
-        <label for="">Password</label>
-        <input type="text" placeholder="password">
-        <input type="submit" value="Entrar">
-    </form>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <form action="" (submit)="ir_a_dashboard()">
+                <div class="form-group">
+                    <label for="user">Username</label>
+                    <input class="form-control" id="user" type="text" placeholder="username">
+                </div>
+                <div class="form-group">
+                    <label for="pass">Password</label>
+                    <input class="form-control" id="pass" type="text" placeholder="password">
+                </div>
+                <input class="btn btn-primary" type="submit" value="Entrar">
+            </form>
+        </div>
+        <div class="col-md-6"></div>
+    </div>
 </div>
